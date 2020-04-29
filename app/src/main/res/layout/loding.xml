@@ -6,37 +6,47 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="428dp"
-        android:layout_height="250dp"
+        android:layout_height="300dp"
         android:background="#9CBECF"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="2020 ⓒ aradada"
+        android:textColor="#0A76AD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="278dp"
-        android:layout_height="105dp"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="372dp" />
+        android:layout_width="317dp"
+        android:layout_height="98dp"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logo" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="310dp"
-        android:layout_height="155dp"
-        app:srcCompat="@drawable/logo_c"
-        tools:layout_editor_absoluteX="-12dp"
-        tools:layout_editor_absoluteY="165dp" />
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="2020 ⓒ aradada"
-        android:textColor="#0A76AD"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="682dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823"
+        app:srcCompat="@drawable/logo_c" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
