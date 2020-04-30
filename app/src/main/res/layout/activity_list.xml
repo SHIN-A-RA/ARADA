@@ -5,24 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".listActivity">
+    tools:context=".ListActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="83dp"
+        android:layout_height="70dp"
         android:background="#6C9FDA"
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="64dp"
             android:background="#6C9FDA"
             android:fontFamily="sans-serif-condensed-light"
             android:gravity="bottom|center|fill_vertical"
             android:text="오늘의 공부"
             android:textColor="#FFFFFF"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <SearchView
@@ -42,7 +43,7 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="449dp">
+        android:layout_height="493dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,19 +52,10 @@
 
             <ListView
                 android:layout_width="445dp"
-                android:layout_height="465dp"
+                android:layout_height="481dp"
                 tools:layout_editor_absoluteX="22dp"
                 tools:layout_editor_absoluteY="-252dp" />
         </LinearLayout>
     </ScrollView>
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavi"
-        android:layout_width="wrap_content"
-        android:layout_height="83dp"
-        app:itemBackground="@android:color/white"
-        app:itemIconTint="#000000"
-        app:itemTextColor="#000000"
-        app:menu="@menu/bottom_navigation" />
 
 </LinearLayout>

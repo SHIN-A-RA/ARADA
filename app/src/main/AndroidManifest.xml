@@ -11,10 +11,10 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@xml/action" />
+           android:resource="@xml/action" />
 
         <activity
-            android:name=".listActivity"
+            android:name=".ListActivity"
             android:label="@string/title_activity_list"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
