@@ -75,7 +75,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:background="#C7D3E3"
+            android:background="@drawable/mosury"
             android:text="insert"
             android:textColor="#FFFFFF" />
     </LinearLayout>

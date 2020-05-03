@@ -9,7 +9,7 @@
         android:layout_width="fill_parent"
         android:layout_height="122dp"
         android:layout_marginTop="20dp"
-        android:background="#DAE4F1"
+        android:background="@drawable/mosury"
         android:gravity="center"
         android:text="00:00:00"
         android:textColor="#777777"
