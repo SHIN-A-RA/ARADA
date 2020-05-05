@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Project_aradada</string>
     <string name="title_activity_list">listActivity</string>
+    <string name="TOAST_MESSAGE">"공부를 합시다!!!!!"</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
